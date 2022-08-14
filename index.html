@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/c610c7a2ec.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style/index.css">
+    <title>Document</title>
+    
+</head>
+
+<body>
+
+    <nav class="flex-div">
+        <div class="nav-left flex-div">
+           <img src="https://icon-library.com/images/hamburger-menu-icon-free/hamburger-menu-icon-free-13.jpg" alt="" id="menu1">
+            <img src="https://stoic-goldwasser-611d2c.netlify.app/images/youtube.png" alt="" class="logo">
+            
+
+        </div>
+        <div class="nav-middle flex-div">
+            <div class="search_box flex-div">
+                <input type="text" id= "query" placeholder="Search">
+                    
+            </div>
+            <button onclick="searchVideos()"><i class="fa-solid fa-magnifying-glass"></i></button>
+            <div id="micdiv"><i class="fa-solid fa-microphone" class="mic1"></i></div>
+        </div>
+       
+        <div class="nav-right flex-div">
+            <img src="https://cdn4.iconfinder.com/data/icons/social-productivity-line-art-6/128/video-add-ol-512.png" alt="">
+            <img src="https://static.thenounproject.com/png/2373902-200.png" alt="">
+            <img src="https://stoic-goldwasser-611d2c.netlify.app/images/notification.png" alt="">
+            <a href=""><i class="fa-solid fa-user" class="usericon"></i><p class="user">Sign in</p></a>
+            
+        </div>
+    </nav>
+
+  
+    <div id="show_videos"></div>
+<!-- ------sidebar---- -->
+
+    <div class="sidebar" >
+        <div class="shortcut-links">
+            
+            <a href=""><i class="fa-solid fa-house"></i><img src="images/home.png" alt=""><p class="leftt">Home</p></a>
+            <a href="./explorer.html"><i class="fa-solid fa-compass"></i><img src="images/explore.png" alt=""><p class="leftt">Explore</p></a>
+            <a href=""><img src="https://cdn.icon-icons.com/icons2/2248/PNG/512/youtube_subscription_icon_136007.png" alt=""><p>Subcriptions</p></a>
+            <hr>
+            <a href=""><img src="https://stoic-goldwasser-611d2c.netlify.app/images/library.png" alt=""><p>Library</p></a>
+            <a href=""><img src="https://cdn1.iconfinder.com/data/icons/youtube-23/29/Vector-9-512.png" alt=""><p>History</p></a>
+            <a href=""><img src="https://icon-library.com/images/youtube-video-icon/youtube-video-icon-17.jpg" alt="" class="iconss"><p>Your videos</p></a>
+            <a href=""><img src="https://cdn.iconscout.com/icon/free/png-256/watch-later-1781603-1513853.png" alt="" ><p>Watch later</p></a>
+            <a href=""><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNF_RMtqVrKciLdPiG5vGvSEju4DD7aTESZyzP7SbkvGKmTL11OZlE-uMZTKNUoR7q39o&usqp=CAU" alt="" ><p>Liked videos</p></a>
+            <hr>
+        </div>
+
+
+   
+    </div>
+</body>
+</html>
+<script src="./scripts/index.js"></script>
